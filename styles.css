@@ -6,6 +6,10 @@
     margin: 0%;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .nav-bar {
     display: flex;
     margin-top: 30px;
@@ -69,6 +73,10 @@
 
   .center-section p {
     margin-right: 150px;
+  }
+
+  .center-section .header-text {
+    margin-right: 250px;
   }
 
   .donate-btn {
@@ -222,16 +230,21 @@
     transition: width 0.6s ease;
   }
 
-  .donation-amount {
+  .fund-raise .donation-amount {
     font-weight: bold;
     color: #333;
     margin-top: 5px;
   }
 
+  .fund-raise {
+    display: flex;
+    gap: 170px;
+  }
+
   .cards-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 50px;
     justify-content: center;
   }
 
@@ -283,12 +296,11 @@
   .content-container {
     display: flex;
     flex-wrap: wrap;
-    background: #ffffff;
     color: black;
   }
   
   .custom-content-card {
-    border: 1px solid #ccc;
+    border: 0;
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
@@ -327,9 +339,6 @@
   }
 
   .abt-img > img {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
     height: 500px;
     gap: 5px;
     margin-top: -30%;
@@ -341,3 +350,46 @@
     background: #eddea4;
     width: 100%;
   }
+
+  .other-background {
+    background: #eddea4; 
+  }
+
+  .volunteer-header .text {
+    margin-right: 450px;
+  }
+
+  .v-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin-top: -6%;
+    gap: 5px;
+  }
+
+  .v-section h1 {
+    margin-right: 230px;
+  }
+
+  .v-section p {
+    margin-right: 200px;
+  }
+
+  .v-btn{
+    margin-top: 6%;
+    color: #786F80;
+    width: 200px;
+    height: auto;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid #786F80;
+    background: #ffffff;
+    margin-right: 46%;
+  }
+  
