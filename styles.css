@@ -38,20 +38,20 @@ body {
     margin-left: auto;
 }  
 
-  .contact-btn:hover {
+.contact-btn:hover {
    background-color: transparent; 
    border: 2px solid #fff;
    background: #ffffff;
    box-shadow: 10px 10px 10px #786F80;
   }
  
-  .navbar-nav{
+.navbar-nav{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     grid-template-columns: 1fr auto;
-  }
+}
   
   .contact-btn{
     justify-self: end;
@@ -83,22 +83,36 @@ body {
     margin-right: 250px;
   }
 
+  .content h1{
+    font-size: 45px;
+  }
+
+  .content p {
+    font-size: 20px;
+    margin-left: 25px;
+    margin-bottom: 70px;
+    
+  }
+
   .donate-btn {
-    margin-right: 44%;
     text-decoration: none;
-    color: white;
-    list-style: none;
-    width: 200px;
-    height: auto;
-    padding: 20px 0;
-    text-align: center;
     border-radius: 25px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background 0.3s;
-    font-weight: bold;
-    border: 2px solid #786F80;
-    background: #786F80;
+    padding: 5px 20px;
+    color: rgb(10, 10, 10);
+    background-color: #eddea4;
+    transition: 0.5s;
+    position: absolute;
+    left: 11%;
+    margin-top: 280px;
+    transition: 0.5s;
+    font-size: 20px;
+  }
+
+  .donate-btn:hover {
+    background-color: transparent; 
+    border: 2px solid #fff;
+    background: #ffffff;
+    box-shadow: 10px 10px 10px #786F80;
   }
 
   .home-img > img {
