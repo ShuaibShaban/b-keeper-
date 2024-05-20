@@ -292,6 +292,7 @@ body {
     width: 40px;
     height: 40px;
   }
+
   
   .content-container {
     display: flex;
@@ -311,15 +312,23 @@ body {
   }
   
   .custom-content-card h2 {
+    font-size: 50px;
+    font-weight: bold;
     margin-top: 8% ;
     align-self: flex-start;
   }
-  
-  .custom-content-card p {
-    margin-top: -5%;
+
+  .custom-content-card .texts {
+    margin-top: -18%;
     text-align: center;
-    margin-right: 140px;
+    margin-right: 100px;
+    gap: 10px;
   }
+
+  .custom-content-card .texts .p-1 {
+    margin-right: 80px;
+  }
+  
   
 
   .abt-us {
