@@ -10,15 +10,15 @@ body {
   overflow-x: hidden;
 }
 
-.nav-bar {
+/* .nav-bar {
     display: flex;
     margin-top: 30px;
     margin-left: 20%;
     gap: 80px;
     list-style: none;
-}
+} */
 
-.nav-bar > li > a {
+/* .nav-bar > li > a {
     text-decoration: none;
     color: gray;
 }
@@ -26,31 +26,35 @@ body {
 .nav-bar > li > a:hover {
     color: white;
     transition: color 0.6s;
-}
+} */
 
 .contact-btn {
-    margin-top: -1%;
-    margin-left: 30%;
-    gap: px;
     text-decoration: none;
-    color: gray;
-    list-style: none;
-    width: 150px;
-    padding: 15px 0;
-    text-align: center;
     border-radius: 25px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background 0.5s;
-    font-weight: bold;
-    border: 2px solid gray;
-    background: #eddea4;
+    padding: 5px 20px;
+    color: rgb(10, 10, 10);
+    background-color: #eddea4;
+    transition: 0.5s;
+    margin-left: auto;
 }  
 
   .contact-btn:hover {
    background-color: transparent; 
    border: 2px solid #fff;
    background: #ffffff;
+   box-shadow: 10px 10px 10px #786F80;
+  }
+ 
+  .navbar-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr auto;
+  }
+  
+  .contact-btn{
+    justify-self: end;
   }
 
   .home-background {
