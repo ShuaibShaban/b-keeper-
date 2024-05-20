@@ -402,3 +402,6 @@ body {
     margin-right: 46%;
   }
   
+  .services-cards {
+    gap: 60px;
+  }
