@@ -322,6 +322,18 @@ body {
     align-self: flex-start;
   }
 
+  .custom-content-card p1 {
+    margin-left: 27%;
+  }
+
+  .custom-content-card p2 {
+    margin-left: 10%;
+  }
+
+  .custom-content-card p3 {
+    margin-left: 22%;
+  }
+
   .custom-content-card .texts {
     margin-top: -18%;
     text-align: center;
@@ -333,7 +345,7 @@ body {
     margin-right: 80px;
   }
   
-  
+  /* about us section styles  */
 
   .abt-us {
     margin-top: 6%;
@@ -364,9 +376,15 @@ body {
     width: 100%;
   }
 
+  .about-img {
+    object-fit: cover;
+  }
+
   .other-background {
     background: #eddea4; 
   }
+
+  /* volunteer section styles */
 
   .volunteer-header .text {
     margin-right: 450px;
@@ -405,7 +423,144 @@ body {
     background: #ffffff;
     margin-right: 46%;
   }
+
+  .volunteer-img {
+    object-fit: cover;
+  }
   
   .services-cards {
     gap: 60px;
+  }
+
+  /* charity section styles */
+
+  .charity-header .text {
+    margin-right: 450px;
+  }
+
+  .charity-header .main-txt {
+    margin-right: 450%;
+  }
+
+  .charity-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin-top: -6%;
+    gap: 20px;
+  }
+
+  .charity-section h1 {
+    margin-right: 150px;
+  }
+
+  .charity-section .p-txt  {
+    margin-right: 20%;
+  }
+
+  .charity-btn {
+    /* margin-top: %; */
+    color: #786F80;
+    width: 200px;
+    height: auto;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid #786F80;
+    background: #ffffff;
+    margin-right: 46%;
+  }
+
+  .charity-img {
+    object-fit: cover;
+  }
+
+  /* contact section styles */
+
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+  }
+  
+  .custom-contact-card {
+    border: 0;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    width: calc(33.33% - 20px);
+    display: flex; 
+    flex-direction: column;
+    /* background: #ffffff; */
+  }
+  
+  .custom-contact-card h2 {
+    padding: 20px;
+    border-radius: 150px;
+    background: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 8% ;
+    align-self: flex-start;
+  }
+
+  .custom-contact-card .text {
+    margin-top: -18%;
+    text-align: center;
+    margin-right: 100px;
+    gap: 0px;
+  }
+
+  .custom-contact-card .text .p-1 {
+    margin-right: 80px;
+  }
+
+  .custom-contact-card p1 {
+    margin-left: 20%;
+  }
+
+  .custom-contact-card p2 {
+    margin-left: 20%;
+  }
+
+  .custom-contact-card p3 {
+    margin-left: 10%;           
+  }
+
+
+  /* footer styles */
+
+  .main {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .main .navbar-tabs li{
+    list-style: none;
+    color: white;
+  }
+  .main .other-tabs li {
+    list-style: none;
+    color: white;
+  }
+
+  .main .social-icons .icon-wrapper {
+    background-color: white;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main .social-icons {
+    display: flex;
+    gap: 10px;
+    margin-right: 2px;
   }
